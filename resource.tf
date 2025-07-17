@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "terra" { 
-    name = "terra" 
+resource "azurerm_resource_group" "terrakota" { 
+    name = "terrakota" 
     location = "East US" 
     }
