@@ -13,6 +13,6 @@ resource "azurerm_storage_account" "mysaterra09" {
  
 resource "azurerm_storage_container" "mysacontainer10" {
     name                  = "my-casestudy-container1"
-    storage_account_name  = azurerm_storage_account.terrakota.name
+    storage_account_name  = azurerm_storage_account.mysaterra09.name
     container_access_type = "private"
 }
